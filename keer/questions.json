@@ -1,0 +1,207 @@
+{
+  "easy_questions": [
+    {
+      "question": "Which of the following is a high-level programming language?",
+      "options": [ "Assembly language", "Machine language", "C++", "None of the above" ],
+      "answer": "C++",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "Which of the following is a dynamically typed programming language?",
+      "options": [ "Java", "Python", "C#", "C" ],
+      "answer": "Python",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "Which of the following is a built-in function in Python to get the length of a string?",
+      "options": [ "length()", "size()", "len()", "count()" ],
+      "answer": "len()",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What does HTML stand for?",
+      "options": [ "Hypertext Markup Language", "Hyperlinks and Text Markup Language", "High-level Markup Language", "None of the above" ],
+      "answer": "Hypertext Markup Language",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "Which of the following is a built-in function in Python to get the length of a string?",
+      "options": [ "length()", "size()", "len()", "count()" ],
+      "answer": "len()",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n print(2+3*4)",
+      "options": [ "20", "14", "15", "None of the above" ],
+      "answer": "14",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n print('Hello' + 'World')",
+      "options": [ "Hello World", "HelloWorld", "Hello+World", "None of the above" ],
+      "answer": "HelloWorld",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n print('2' + '3')",
+      "options": [ "5", "23", "32", "None of the above" ],
+      "answer": "23",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n x = 5 \n print(x) \n x = 10 \n print(x)",
+      "options": [ "5 10", "10 10", "5 5", "None of the above" ],
+      "answer": "5 10",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n x = 5 \n y = '5' \n print(x + int(y))",
+      "options": [ "10", "55", "25", "None of the above" ],
+      "answer": "10",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n x = [1, 2, 3] \n print(x[0])",
+      "options": [ "1", "2", "3", "None of the above" ],
+      "answer": "1",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n x = [1, 2, 3] \n print(x[3])",
+      "options": [ "1", "2", "3", "IndexError" ],
+      "answer": "IndexError",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code? \n x = {1:'one', 2:'two'} \n print(x[1])",
+      "options": [ "one", "two", "1", "None of the above" ],
+      "answer": "one",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    }
+  ],
+  "medium_questions": [
+    {
+      "question": "What is the output in Python? a = 5, b = 3, print(a // b)",
+      "options": [ "1", "1.67", "2", "2.5" ],
+      "answer": "2",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the purpose of the 'finally' block in a try-except block in Python?",
+      "options": [ "To execute the code if the try block raises an exception", "To execute the code if the except block does not catch an exception", "To execute the code regardless of whether an exception is raised or not", "None of the above" ],
+      "answer": "To execute the code regardless of whether an exception is raised or not",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "Which of the following is a disadvantage of using a relational database?",
+      "options": [ "Low security", "Low scalability", "Low performance", "None of the above" ],
+      "answer": "Low scalability",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the difference between an abstract class and an interface in Java?",
+      "options": [ "An abstract class can have constructor while interface cannot", "An interface can have concrete methods while abstract class cannot", "An abstract class can implement interfaces while interface cannot", "None of the above" ],
+      "answer": "An abstract class can have constructor while interface cannot",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the difference between an abstract class and an interface in Java?",
+      "options": [ "An abstract class can have constructor while interface cannot", "An interface can have concrete methods while abstract class cannot", "An abstract class can implement interfaces while interface cannot", "None of the above" ],
+      "answer": "An abstract class can have constructor while interface cannot",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following Python code? x = [1, 2, 3, 4, 5] print(x[2:4])",
+      "options": [ "[2, 3]", "[3, 4]", "[2, 3, 4]", "[3, 4, 5]" ],
+      "answer": "[3, 4]",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the difference between a list and a tuple in Python?",
+      "options": [ "A list is mutable while a tuple is immutable", "A tuple is mutable while a list is immutable", "Both list and tuple are immutable", "Both list and tuple are mutable" ],
+      "answer": "A list is mutable while a tuple is immutable",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the difference between a function and a method in Python?",
+      "options": [ "A function is defined inside a class while a method is not", "A method is defined inside a class while a function is not", "There is no difference between a function and a method in Python", "Both function and method can have arguments and return values" ],
+      "answer": "A method is defined inside a class while a function is not",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the purpose of the 'pass' statement in Python?",
+      "options": [ "To do nothing", "To end a loop", "To exit a function", "To raise an exception" ],
+      "answer": "To do nothing",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following Python code? for i in range(1, 5): print(i) else: print('Done!')",
+      "options": [ "1 2 3 4 Done!", "1 2 3 4", "Done!", "Error" ],
+      "answer": "1 2 3 4 Done!",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "Which of the following is not a valid data type in Python?",
+      "options": [ "int", "float", "double", "str" ],
+      "answer": "double",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    }
+  ],
+  "hard_questions": [
+    {
+      "question": "What is the output of the following code in JavaScript? for (var i = 0; i < 5; i++) { (function(j) { setTimeout(function(){console.log(j); }, j * 1000 );})(i)",
+      "options": [ "0 1 2 3 4", "1 2 3 4 5", "5 5 5 5 5", "None of the above" ],
+      "answer": "0 1 2 3 4",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the difference between \"const\" and \"let\" in JavaScript?",
+      "options": [ "\"const\" variables can not be reassigned while \"let\" variables can be reassigned", "\"const\" variables can only be declared once while \"let\" variables can be declared multiple times", "\"const\" variables can only be declared inside functions while \"let\" variables can be declared both inside and outside functions", "None of the above" ],
+      "answer": "\"const\" variables can only be reassigned once while \"let\" variables can be reassigned multiple times",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "Which of the following is a benefit of using a functional programming approach?",
+      "options": [ "It promotes side-effects and mutable state", "It is only suitable for small-scale projects", "It makes it easier to reason about the code and avoid bugs", "None of the above" ],
+      "answer": "It makes it easier to reason about the code and avoid bugs",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the purpose of the \"yield\" keyword in Python?",
+      "options": [ "To create a generator function", "To define a variable as a generator", "To terminate a generator function", "None of the above" ],
+      "answer": "To create a generator function",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output in Python? x = 1, y = 2, z = 3, print((x + y) * z)",
+      "options": [ "6", "9", "5", "7" ],
+      "answer": "9",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the difference between a list and a tuple in Python?",
+      "options": [ "A list is mutable while a tuple is immutable", "A list is ordered while a tuple is unordered", "A list can contain elements of different types while a tuple can only contain elements of the same type", "None of the above" ],
+      "answer": "A list is mutable while a tuple is immutable",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the output of the following code in Python? x = [1, 2, 3], y = x, y[0] = 4, print(x)",
+      "options": [ "[1, 2, 3]", "[4, 2, 3]", "[1, 4, 3]", "[1, 2, 4]" ],
+      "answer": "[4, 2, 3]",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the purpose of the 'global' keyword in Python?",
+      "options": [ "To define a variable as global and accessible throughout the program", "To create a new global variable", "To declare a function as global and accessible throughout the program", "None of the above" ],
+      "answer": "To define a variable as global and accessible throughout the program",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    },
+    {
+      "question": "What is the difference between 'is' and '==' operators in Python?",
+      "options": [ "'is' checks if two variables refer to the same object while '==' checks if two variables have the same value", "'is' checks if two variables have the same value while '==' checks if two variables refer to the same object", "'is' and '==' are the same operator with different names", "None of the above" ],
+      "answer": "'is' checks if two variables refer to the same object while '==' checks if two variables have the same value",
+      "youtube_link": "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    }
+  ]
+}
+

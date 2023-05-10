@@ -1,0 +1,325 @@
+import webbrowser
+
+# Inside the while loop in the result phase:
+if phase == "result":
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            # Get the mouse position
+            pos = pygame.mouse.get_pos()
+            # Check if the mouse is over any of the YouTube links
+            for link_rect, link in youtube_links:
+                if link_rect.collidepoint(pos):
+                    # Open the link in the default web browser
+                    webbrowser.open(link)
+    # Draw the YouTube links on the screen
+    for i, (link_rect, link) in enumerate(youtube_links):
+        txt = small_font.render(f"Video {i+1}: {link}", True, (0, 0, 0))
+        screen.blit(txt, link_rect)
+        pygame.draw.rect(screen, (0, 0, 0), link_rect, 1)
+
+
+
+
+
+
+
+
+        import webbrowser
+
+# ... previous code here ...
+
+elif phase=="end_game":
+      # youtube_links = []
+      #global phase, score, incorrect
+      phase="end_game"
+      pygame.time.set_timer(pygame.USEREVENT+1,0)
+      pygame.time.set_timer(pygame.USEREVENT+2,0)
+      screen.fill((108, 207, 246)) 
+      if res2=='player':
+          txt=small_font.render(f'number of questions answered correctly: {sum(Score)}',True,(0,0,0))
+          txt_rect=txt.get_rect(center=(216,213))
+          screen.blit(txt,txt_rect)
+          txt=small_font.render(f'number of questions answered incorrectly: {incorrect}',True,(0,0,0))
+          txt_rect=txt.get_rect(center=(216,248))
+          screen.blit(txt,txt_rect)
+          txt=font.render('Press space to try again!!',True,(0,0,0))
+          txt_rect=txt.get_rect(center=(216,284))
+          screen.blit(txt,txt_rect)
+          txt=font.render('Press Enter to see history of players',True,(0,0,0))
+          txt_rect=txt.get_rect(center=(216,350))
+          screen.blit(txt,txt_rect)
+          # display YouTube links for incorrect answers
+          if incorrect > 0:
+             txt = small_font.render("Click the links below to watch video explanations:", True, (0, 0, 0))
+             txt_rect = txt.get_rect(center=(216, 400))
+             screen.blit(txt, txt_rect)
+             y = 450
+             for link in youtube_links:
+               txt = small_font.render(link, True, (0, 0, 0))
+               txt_rect = txt.get_rect(center=(216, y))
+               screen.blit(txt, txt_rect)
+               # check if user clicked on link
+               if txt_rect.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0]:
+                   webbrowser.open(link)
+               y += 50
+
+      elif res2=="comp":
+          screen.blit(txt,txt_rect)
+          txt=font.render('Computer wins!!',True,(0,0,0))
+          txt_rect=txt.get_rect(center=(216,241))
+          screen.blit(txt,txt_rect)
+          txt=font.render('Press space to try again!!',True,(0,0,0))
+          txt_rect=txt.get_rect(center=(216,241))
+          screen.blit(txt,txt_rect)
+          txt=font.render('Press Enter to see history of players',True,(0,0,0))
+          txt_rect=txt.get_rect(center=(216,350))
+          screen.blit(txt,txt_rect)
+          # display YouTube links for incorrect answers
+          if incorrect > 0:
+             txt = small_font.render("Click the links below to watch video explanations:", True, (0, 0, 0))
+             txt_rect = txt.get_rect(center=(216, 400))
+             screen.blit(txt, txt_rect)
+             y = 450
+             for link in youtube_links:
+                txt = small_font.render(link, True, (0, 0, 0))
+                txt_rect = txt.get_rect(center=(216, y))
+                screen.blit(txt, txt_rect)
+                # check if user clicked on link
+                if txt_rect.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0]:
+                   webbrowser.open(link)
+                y += 50
+
+      pygame.display.update
+
+
+
+
+
+
+
+
+
+
+      import webbrowser
+
+...
+
+elif phase == "end_game":
+    # youtube_links = []
+    # global phase, score, incorrect
+    phase = "end_game"
+    pygame.time.set_timer(pygame.USEREVENT+1, 0)
+    pygame.time.set_timer(pygame.USEREVENT+2, 0)
+    screen.fill((108, 207, 246)) 
+    if res2 == 'player':
+        txt = small_font.render(f'number of questions answered correctly: {sum(Score)}', True, (0, 0, 0))
+        txt_rect = txt.get_rect(center=(216, 213))
+        screen.blit(txt, txt_rect)
+        txt = small_font.render(f'number of questions answered incorrectly: {incorrect}', True, (0, 0, 0))
+        txt_rect = txt.get_rect(center=(216, 248))
+        screen.blit(txt, txt_rect)
+        txt = font.render('Press space to try again!!', True, (0, 0, 0))
+        txt_rect = txt.get_rect(center=(216, 284))
+        screen.blit(txt, txt_rect)
+        txt = font.render('Press Enter to see history of players', True, (0, 0, 0))
+        txt_rect = txt.get_rect(center=(216, 350))
+        screen.blit(txt, txt_rect)
+        # display YouTube links for incorrect answers
+        if incorrect > 0:
+            txt = small_font.render("Click the links below to watch video explanations:", True, (0, 0, 0))
+            txt_rect = txt.get_rect(center=(216, 400))
+            screen.blit(txt, txt_rect)
+            y = 450
+            for link in youtube_links:
+
+
+
+
+
+
+
+            import pygame
+
+# Define some colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GRAY = (200, 200, 200)
+BLUE = (0, 0, 255)
+
+# Initialize pygame
+pygame.init()
+
+# Set up the screen
+screen = pygame.display.set_mode((432, 432))
+pygame.display.set_caption('Game Over')
+
+# Load fonts
+font = pygame.font.Font(None, 32)
+small_font = pygame.font.Font(None, 24)
+
+# Create background
+background = pygame.Surface(screen.get_size())
+background.fill(WHITE)
+sa
+# Add text boxes
+txt = small_font.render(f'Number of questions answered correctly: {sum(Score)}', True, BLACK)
+txt_rect = txt.get_rect(center=(216, 213))
+pygame.draw.rect(background, GRAY, txt_rect.inflate(10, 10))
+screen.blit(txt, txt_rect)
+
+txt = small_font.render(f'Number of questions answered incorrectly: {incorrect}', True, BLACK)
+txt_rect = txt.get_rect(center=(216, 248))
+pygame.draw.rect(background, GRAY, txt_rect.inflate(10, 10))
+screen.blit(txt, txt_rect)
+
+txt = font.render('Press Space to try again!', True, BLUE)
+txt_rect = txt.get_rect(center=(216, 284))
+pygame.draw.rect(background, GRAY, txt_rect.inflate(10, 10))
+screen.blit(txt, txt_rect)
+
+txt = font.render('Press Enter to see history of players', True, BLUE)
+txt_rect = txt.get_rect(center=(216, 350))
+pygame.draw.rect(background, GRAY, txt_rect.inflate(10, 10))
+screen.blit(txt, txt_rect)
+
+# Add icons
+icon = pygame.image.load('icon.png')
+screen.blit(icon, (0, 0))
+
+# Update the screen
+pygame.display.update()
+
+
+
+
+
+
+
+
+
+
+
+
+ while True:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_RETURN:
+                        display_leaderboard()
+                elif event.type == pygame.MOUSEBUTTONDOWN:
+                    # check if a link was clicked
+                    pos = pygame.mouse.get_pos()
+                    y = 450
+                    for link in youtube_links:
+                        txt = small_font.render(link, True, (0, 0, 255))
+                        txt_rect = txt.get_rect(center=(216, y))
+                        if txt_rect.collidepoint(pos):
+                            webbrowser.open(link)
+                            break
+                        y += 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import pygame
+
+# Define some colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (200, 200, 200)
+BLUE = (0, 128, 255)
+
+# Initialize pygame
+pygame.init()
+
+# Set up the screen
+screen = pygame.display.set_mode((432, 432))
+pygame.display.set_caption('Game Over')
+
+# Load fonts
+font = pygame.font.Font('assets/fonts/OpenSans-Regular.ttf', 32)
+small_font = pygame.font.Font('assets/fonts/OpenSans-Regular.ttf', 24)
+
+# Create background
+background = pygame.Surface(screen.get_size())
+background.fill(WHITE)
+
+# Add text boxes
+txt = small_font.render(f'Number of questions answered correctly: {sum(Score)}', True, BLACK)
+txt_rect = txt.get_rect(center=(216, 213))
+pygame.draw.rect(background, GRAY, txt_rect.inflate(20, 10), border_radius=5)
+screen.blit(txt, txt_rect)
+
+txt = small_font.render(f'Number of questions answered incorrectly: {incorrect}', True, BLACK)
+txt_rect = txt.get_rect(center=(216, 258))
+pygame.draw.rect(background, GRAY, txt_rect.inflate(20, 10), border_radius=5)
+screen.blit(txt, txt_rect)
+
+txt = font.render('Press Space to try again!', True, WHITE)
+txt_rect = txt.get_rect(center=(216, 320))
+pygame.draw.rect(background, BLUE, txt_rect.inflate(30, 20), border_radius=5)
+screen.blit(txt, txt_rect)
+
+txt = small_font.render('Press Enter to see history of players', True, BLUE)
+txt_rect = txt.get_rect(center=(216, 380))
+pygame.draw.rect(background, WHITE, txt_rect.inflate(20, 10), border_radius=5)
+screen.blit(txt, txt_rect)
+
+# Add logo
+logo = pygame.image.load('assets/images/logo.png')
+logo_rect = logo.get_rect(center=(216, 75))
+screen.blit(logo, logo_rect)
+
+# Update the screen
+pygame.display.update()
+
+
+
+
+
+
+
+
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RETURN:
+                display_leaderboard()
+            elif event.key == pygame.K_ESCAPE: # added condition
+                phase = 'login'  # switch back to login screen
+                login_screen()  # call the login_screen function to display the login screen
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            # check if a link was clicked
+            pos = pygame.mouse.get_pos()
+            y = 450
+            for link in youtube_links:
+                txt = small_font.render(link, True, (0, 0, 255))
+                txt_rect = txt.get_rect(center=(216, y))
+                if txt_rect.collidepoint(pos):
+                    webbrowser.open(link)
+                    break
+                y += 50
+    pygame.display.update()
